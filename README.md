@@ -12,13 +12,13 @@ To run the project in Docker:
 
 ```bash
 docker build -t outro .  
-docker start outro-container -p 3000:3000 outro
+docker run -it --name outro-container -p 3000:3000 outro
 ```
 
 To retrieve output-video from docker container run
 
 ```bash
-docker cp outro:/app/output-outro.mp4 ./
+docker cp outro-container:/app/output-outro.mp4 ./
 ```
 
 To open the application navigate to http://localhost:3000 in your browser
