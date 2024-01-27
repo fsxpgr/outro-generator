@@ -25,4 +25,4 @@ To open the application navigate to http://localhost:3000 in your browser
 
 After generation output-outro.mp4 it should be located at the root of the project
 
-![demo-screenshot.png](demo-screenshot.png)
+![demo-screenshot-web.png](demo-screenshot-web.png)
