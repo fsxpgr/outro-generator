@@ -1,0 +1,39 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 64px 20px;
+    margin: 0 auto;
+    min-height: 100vh;
+    max-width: 930px;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    gap: 37px
+}
+
+
+.section {
+    padding: 72px 0 60px 0;
+    border-bottom: 0.5px solid #E1E1E1;
+    margin-bottom: 24px;
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    gap: 58px;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 42px;
+}
+
+.field {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
